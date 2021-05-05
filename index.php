@@ -60,7 +60,7 @@ class Coche{
  
 <?php
 // Creamos el objeto / Instanciamos la clase y le pasamos los parámetros del constructor
-$coche = new Coche("BMW VICTOR", "ROJO", 100); asdass
+$coche = new Coche("BMW VICTOR", "ROJO", 100);
  
 // Mostramos la información del primer coche
 echo $coche->mostrarInfo();
@@ -68,7 +68,7 @@ echo $coche->mostrarInfo();
 $coche2 = new Coche("SEAT 500", "VERDE");
  
 // Mostramos la información del segundo coche
-echo $coche2-sd>mostrarInfo();
+echo $coche2->mostrarInfo();
 ?>
  
 </body>
